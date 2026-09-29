@@ -1,0 +1,118 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+#logo {
+
+    width: 100px;
+    height: 100px;
+    font-family: 'Pokemon Solid', sans-serif;
+    color: #7179eb;
+
+    font-weight: 900;
+    margin-left: 30px;
+
+}
+
+.content {
+    width: 59vw;
+    height: 100vh;
+    background-color: #f5ca3d;
+    position: relative;
+    z-index: 2;
+}
+
+#logo {
+    background-color: transparent;
+    width: 100px;
+    height: 100px;
+}
+
+.nav {
+    width: 98.9%;
+    height: 100px;
+    background-color: #f5ca3d;
+    position: absolute;
+    left: 0px;
+    Z-index: 1;
+
+}
+
+.right {
+    width: 42vw;
+    height: 100vh;
+    padding: 2px;
+    background-color: #f7dd8b;
+    position: absolute;
+    left: 795px;
+    top: 0px;
+    /* Z-index: 1; */
+}
+
+.nave {
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    Z-index: 2;
+
+}
+
+.pikachu {
+    width: 60%;
+    height: 60%;
+    background-color: transparent;
+    position: absolute;
+    top: 150px;
+    left: 600px;
+    z-index: 1;
+}
+
+.text {
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 180px;
+    left: 70px;
+}
+
+#pika {
+    font-weight: bold;
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+
+    top: 200px;
+    left: 62px;
+}
+
+#dis {
+
+    font-size: 13px;
+    font-family: "Lato", sans-serif;
+    position: absolute;
+    top: 320px;
+    left: 70px;
+    color: #556375;
+}
+
+#date {
+    font-size: 13px;
+    font-family: "Lato", sans-serif;
+    position: absolute;
+    top: 150px;
+    left: 70px;
+    color: #556375;
+}
